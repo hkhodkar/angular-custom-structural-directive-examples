@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HideAfterDirectiveDirective } from './hide-after-directive.directive';
+import { IfLoadedDirective } from './if-loaded.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HideAfterDirectiveDirective,
+    IfLoadedDirective
   ],
   imports: [
     BrowserModule,
